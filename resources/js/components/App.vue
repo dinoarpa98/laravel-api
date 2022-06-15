@@ -5,7 +5,7 @@
       
       
       <main>
-         <PostList/>
+         <PostsList/>
       </main>
 
     </div>
@@ -13,12 +13,12 @@
 
 <script>
     import Header from "./Header.vue";
-    import PostList from "./posts/PostList.vue";
+    import PostsList from "./posts/PostsList.vue";
     export default {
         name: "App",
         components: {
             Header,
-            PostList,
+            PostsList,
         },
     };
 
